@@ -32,7 +32,7 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         signUpButton.addCornerRadius(element: signUpButton, giveClipToBounds: false)
         signUpButton.addShadow(element: signUpButton, giveMaskToBounds: false)
         
@@ -40,5 +40,14 @@ class RegisterViewController: UIViewController {
             
         googleButton.addCornerRadius(element: googleButton, giveClipToBounds: false)
     }
+    
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+        
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
+    
+    
 
 }
