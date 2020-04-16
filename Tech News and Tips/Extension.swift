@@ -17,6 +17,8 @@ extension UIView {
     }
     
     func addColor(element: UIView){
+        
+        // Color for  the buttons and labels to be used is #3b5998
         element.backgroundColor = #colorLiteral(red: 0.1137254902, green: 0.7254901961, blue: 0.3294117647, alpha: 1)
     }
     

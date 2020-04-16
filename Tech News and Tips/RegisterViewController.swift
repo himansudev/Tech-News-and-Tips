@@ -9,6 +9,22 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
+    
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var firstNameTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBOutlet weak var reTypePasswordTextField: UITextField!
+    
+    @IBOutlet weak var signUpButton: UIButton!
+    
+    @IBOutlet weak var faceBookButton: UIButton!
+    
+    @IBOutlet weak var googleButton: UIButton!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +32,13 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        signUpButton.addCornerRadius(element: signUpButton, giveClipToBounds: false)
+        signUpButton.addShadow(element: signUpButton, giveMaskToBounds: false)
+        
+        faceBookButton.addCornerRadius(element: faceBookButton, giveClipToBounds: false)
+            
+        googleButton.addCornerRadius(element: googleButton, giveClipToBounds: false)
     }
-    */
 
 }
