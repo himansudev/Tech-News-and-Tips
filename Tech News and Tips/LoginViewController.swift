@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
@@ -29,6 +30,7 @@ class LoginViewController: UIViewController {
    
     @IBOutlet weak var logInLabel: UILabel!
     
+    @IBOutlet weak var warningLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -63,8 +65,13 @@ extension LoginViewController {
         emailtextField.placeholder = Str.emailTFPlaceholder()
         passwordtextField.placeholder = Str.passwordTFPlaceholder()
         
+        
         //Label
+        warningLabel.text = ""
         logInLabel.textColor = UIColor.white
+        warningLabel.textColor = UIColor.red
+        
+        
         
         //Buttons
         forgotPasswordButton.setTitle(Str.forgotPassWordButtonTitle(), for: UIControl.State.normal)
@@ -99,10 +106,23 @@ extension LoginViewController {
 extension LoginViewController {
     
     @objc func loginButtonEH() {
-        let dashBoardVC = self.storyboard?.instantiateViewController(identifier: Str.dashBoardVC()) as! DashboardViewController
         
-        self.navigationController?.pushViewController(dashBoardVC, animated: true)
+        let message = checkTextFieldForDataPresence()
+        
+        warningLabel.text = message
+        print(message)
+        if !(message != "") {
+            login()
+        }
+        
+        
+        
+      
+        
     }
+    
+    
+    
     
     @objc func forgotPasswordButtonEH() {
         
@@ -113,4 +133,61 @@ extension LoginViewController {
     }
     
    
+}
+
+
+//Supporting Functions
+extension LoginViewController {
+    //Login Function
+    func login() {
+        
+        let loadingAnimation = HPLoadingAnimation()
+        loadingAnimation.startAnimation(targetVC: self)
+        
+        let email = emailtextField.text!
+        
+        let pass = passwordtextField.text!
+        
+        
+        
+        Auth.auth().signIn(withEmail: email, password: pass) { (result, err) in
+            if err != nil {
+                
+                loadingAnimation.stopAnimation()
+                
+                UIAlertController.messageAlert(target: self, title: "Invalid Credentials", message: "Invalid E-Mail\n Or\n Password")
+            }
+            else
+            {
+                
+                let dashBoardVC = self.storyboard?.instantiateViewController(identifier: Str.dashBoardVC()) as! DashboardViewController
+                
+                loadingAnimation.stopAnimation()
+                
+                self.navigationController?.pushViewController(dashBoardVC, animated: true)
+                
+                
+            }
+            
+        }
+    }
+    
+    //Checks If Textfields Are Empty Or Not
+    func checkTextFieldForDataPresence() -> String {
+        
+        if(emailtextField.text == "" && passwordtextField.text == "") {
+            return "【 Fields Cannot Be Empty 】"
+        }
+        else if(emailtextField.text != "" && passwordtextField.text == "") {
+            return "【 Password Cannot Be Empty 】"
+        }
+        
+        else if(emailtextField.text == "" && passwordtextField.text != "") {
+            return "【 Email Cannot Be Empty 】"
+        }
+        
+        return ""
+        
+    }
+     
 }

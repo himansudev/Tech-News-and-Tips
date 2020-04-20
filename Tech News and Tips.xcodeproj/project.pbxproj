@@ -20,6 +20,8 @@
 		C7A594BB2447883300775DEA /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A594BA2447883300775DEA /* InitialViewController.swift */; };
 		C7A594BD2447883C00775DEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7A594BC2447883C00775DEA /* GoogleService-Info.plist */; };
 		C7A9884024478BC50032AC0C /* Tech_News_and_Tips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A9883E24478BC40032AC0C /* Tech_News_and_Tips.xcdatamodeld */; };
+		C7AFFCB5244DADF600A681C9 /* HPLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */; };
+		C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */; };
 		C7B573A5244B504A007A130C /* Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B573A4244B504A007A130C /* Str.swift */; };
 		C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +43,8 @@
 		C7A594BA2447883300775DEA /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		C7A594BC2447883C00775DEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7A9883F24478BC40032AC0C /* Tech_News_and_Tips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tech_News_and_Tips.xcdatamodel; sourceTree = "<group>"; };
+		C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLoadingAnimation.swift; sourceTree = "<group>"; };
+		C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIAlert.swift"; sourceTree = "<group>"; };
 		C7B573A4244B504A007A130C /* Str.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Str.swift; sourceTree = "<group>"; };
 		C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		CF8B4D760D150BAD6661313E /* Pods-Tech News and Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.release.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				C73BD6A5244789110024F291 /* LoginViewController.swift */,
 				C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */,
 				C73BD6A4244789110024F291 /* RegisterViewController.swift */,
+				C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */,
+				C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */,
 				C7A594A82447861800775DEA /* Main.storyboard */,
 				C7A594AD2447861900775DEA /* LaunchScreen.storyboard */,
 				C73BD6A824478B110024F291 /* Assets.xcassets */,
@@ -235,9 +241,11 @@
 				C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */,
 				C73BD6A3244788E20024F291 /* Extension.swift in Sources */,
 				C7A594B82447880400775DEA /* AppDelegate.swift in Sources */,
+				C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */,
 				C7A594A72447861800775DEA /* ViewController.swift in Sources */,
 				C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */,
 				C7A594B92447880400775DEA /* SceneDelegate.swift in Sources */,
+				C7AFFCB5244DADF600A681C9 /* HPLoadingAnimation.swift in Sources */,
 				C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */,
 				C7A594BB2447883300775DEA /* InitialViewController.swift in Sources */,
 				C7B573A5244B504A007A130C /* Str.swift in Sources */,
