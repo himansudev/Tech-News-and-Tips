@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99730DC487549689DAB8EFD4 /* Pods_Tech_News_and_Tips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981FBF2907949439F75B7F3D /* Pods_Tech_News_and_Tips.framework */; };
+		C71B8297245448F700BEC314 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B8296245448F700BEC314 /* TabBarController.swift */; };
 		C73BD6A3244788E20024F291 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A2244788E20024F291 /* Extension.swift */; };
 		C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A4244789110024F291 /* RegisterViewController.swift */; };
 		C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A5244789110024F291 /* LoginViewController.swift */; };
@@ -24,11 +25,15 @@
 		C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */; };
 		C7B573A5244B504A007A130C /* Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B573A4244B504A007A130C /* Str.swift */; };
 		C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */; };
+		C7C27F81245443FC00AC6BAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F80245443FC00AC6BAB /* HomeViewController.swift */; };
+		C7C27F832454444100AC6BAB /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F822454444100AC6BAB /* FavouriteViewController.swift */; };
+		C7C27F85245446EE00AC6BAB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51E19FA5EA1C9BCCAECC444F /* Pods-Tech News and Tips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.debug.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.debug.xcconfig"; sourceTree = "<group>"; };
 		981FBF2907949439F75B7F3D /* Pods_Tech_News_and_Tips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tech_News_and_Tips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71B8296245448F700BEC314 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C73BD6A2244788E20024F291 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		C73BD6A4244789110024F291 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C73BD6A5244789110024F291 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIAlert.swift"; sourceTree = "<group>"; };
 		C7B573A4244B504A007A130C /* Str.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Str.swift; sourceTree = "<group>"; };
 		C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		C7C27F80245443FC00AC6BAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7C27F822454444100AC6BAB /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CF8B4D760D150BAD6661313E /* Pods-Tech News and Tips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.release.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +101,10 @@
 				C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */,
 				C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */,
 				C7A594A82447861800775DEA /* Main.storyboard */,
+				C71B8296245448F700BEC314 /* TabBarController.swift */,
+				C7C27F80245443FC00AC6BAB /* HomeViewController.swift */,
+				C7C27F822454444100AC6BAB /* FavouriteViewController.swift */,
+				C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */,
 				C7A594AD2447861900775DEA /* LaunchScreen.storyboard */,
 				C73BD6A824478B110024F291 /* Assets.xcassets */,
 				C7A9883E24478BC40032AC0C /* Tech_News_and_Tips.xcdatamodeld */,
@@ -238,9 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A9884024478BC50032AC0C /* Tech_News_and_Tips.xcdatamodeld in Sources */,
+				C71B8297245448F700BEC314 /* TabBarController.swift in Sources */,
 				C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */,
 				C73BD6A3244788E20024F291 /* Extension.swift in Sources */,
 				C7A594B82447880400775DEA /* AppDelegate.swift in Sources */,
+				C7C27F832454444100AC6BAB /* FavouriteViewController.swift in Sources */,
 				C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */,
 				C7A594A72447861800775DEA /* ViewController.swift in Sources */,
 				C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */,
@@ -248,6 +262,8 @@
 				C7AFFCB5244DADF600A681C9 /* HPLoadingAnimation.swift in Sources */,
 				C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */,
 				C7A594BB2447883300775DEA /* InitialViewController.swift in Sources */,
+				C7C27F85245446EE00AC6BAB /* ProfileViewController.swift in Sources */,
+				C7C27F81245443FC00AC6BAB /* HomeViewController.swift in Sources */,
 				C7B573A5244B504A007A130C /* Str.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

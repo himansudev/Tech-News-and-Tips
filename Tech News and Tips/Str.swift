@@ -16,6 +16,9 @@ struct Str {
     static func registerVC() -> String {return "RegisterViewController"}
     static func dashBoardVC() -> String {return "DashboardViewController"}
     
+    //-----------------------------------------------
+    
+  
     
     //Login View Controller
     static func forgotPassWordButtonTitle() -> String {return "Forgot Password?"}
@@ -24,15 +27,17 @@ struct Str {
     
     static func emailTFPlaceholder() -> String {return "E-Mail"}
     static func passwordTFPlaceholder() -> String {return "Password"}
-//    static func logInButtonTitle() -> String {return "LOG IN"}
-//    static func logInButtonTitle() -> String {return "LOG IN"}
-//    static func logInButtonTitle() -> String {return "LOG IN"}
-//    static func logInButtonTitle() -> String {return "LOG IN"}
-//    static func logInButtonTitle() -> String {return "LOG IN"}
+
     
+    //------------------------------------------------
     
-    
-    
+    //Tab Bar Controllers
+        static func tabBarController() -> String {return "TabBarController"}
+      static func homeVC() -> String {return "HomeViewController"}
+      static func profileVC() -> String {return "ProfileViewController"}
+      static func favouriteVC() -> String {return "FavouriteViewController"}
+      
+      //----------------------------------------------------
     
     
     
