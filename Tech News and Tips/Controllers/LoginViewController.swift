@@ -158,11 +158,11 @@ extension LoginViewController {
             else
           {
                 
-                let tabBarController = self.storyboard?.instantiateViewController(identifier: VC.tabBarController())
+                let techVC = self.storyboard?.instantiateViewController(identifier: VC.techViewController())
 
                 loadingAnimation.stopAnimation()
 
-                self.navigationController?.pushViewController(tabBarController!, animated: true)
+                self.navigationController?.pushViewController(techVC!, animated: true)
 
 
             }

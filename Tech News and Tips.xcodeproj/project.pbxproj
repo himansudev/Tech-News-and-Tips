@@ -11,6 +11,8 @@
 		C71B8297245448F700BEC314 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B8296245448F700BEC314 /* TabBarController.swift */; };
 		C71B829D24544DC800BEC314 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B829C24544DC800BEC314 /* VC.swift */; };
 		C71B829F2454565B00BEC314 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B829E2454565B00BEC314 /* Colors.swift */; };
+		C72FC64C2455A67F008C65CA /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FC64B2455A67F008C65CA /* LearnViewController.swift */; };
+		C72FC64E2455A7CE008C65CA /* TechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FC64D2455A7CE008C65CA /* TechViewController.swift */; };
 		C73BD6A3244788E20024F291 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A2244788E20024F291 /* Extension.swift */; };
 		C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A4244789110024F291 /* RegisterViewController.swift */; };
 		C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A5244789110024F291 /* LoginViewController.swift */; };
@@ -36,6 +38,8 @@
 		C71B8296245448F700BEC314 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C71B829C24544DC800BEC314 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		C71B829E2454565B00BEC314 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C72FC64B2455A67F008C65CA /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		C72FC64D2455A7CE008C65CA /* TechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechViewController.swift; sourceTree = "<group>"; };
 		C73BD6A2244788E20024F291 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		C73BD6A4244789110024F291 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C73BD6A5244789110024F291 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -76,10 +80,12 @@
 				C7A594BA2447883300775DEA /* InitialViewController.swift */,
 				C73BD6A5244789110024F291 /* LoginViewController.swift */,
 				C73BD6A4244789110024F291 /* RegisterViewController.swift */,
+				C72FC64D2455A7CE008C65CA /* TechViewController.swift */,
 				C71B8296245448F700BEC314 /* TabBarController.swift */,
 				C7C27F80245443FC00AC6BAB /* HomeViewController.swift */,
 				C7C27F822454444100AC6BAB /* FavouriteViewController.swift */,
 				C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */,
+				C72FC64B2455A67F008C65CA /* LearnViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 				C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */,
 				C71B829F2454565B00BEC314 /* Colors.swift in Sources */,
 				C73BD6A3244788E20024F291 /* Extension.swift in Sources */,
+				C72FC64C2455A67F008C65CA /* LearnViewController.swift in Sources */,
+				C72FC64E2455A7CE008C65CA /* TechViewController.swift in Sources */,
 				C7A594B82447880400775DEA /* AppDelegate.swift in Sources */,
 				C7C27F832454444100AC6BAB /* FavouriteViewController.swift in Sources */,
 				C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */,

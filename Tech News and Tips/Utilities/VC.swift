@@ -11,14 +11,32 @@ import Foundation
 struct VC {
     
     //ViewControllers
-    static func loginVC() -> String {return "LoginViewController"}
-    static func initialVC() -> String {return "InitialViewController"}
-    static func registerVC() -> String {return "RegisterViewController"}
-    static func dashBoardVC() -> String {return "DashboardViewController"}
-    static func homeVC() -> String {return "HomeViewController"}
-    static func profileVC() -> String {return "ProfileViewController"}
-    static func favouriteVC() -> String {return "FavouriteViewController"}
+    static func loginVC() -> String
+    {return "LoginViewController"}
     
+    static func initialVC() -> String
+    {return "InitialViewController"}
+    
+    static func registerVC() -> String
+    {return "RegisterViewController"}
+    
+    static func dashBoardVC() -> String
+    {return "DashboardViewController"}
+    
+    static func homeVC() -> String
+    {return "HomeViewController"}
+    
+    static func profileVC() -> String
+    {return "ProfileViewController"}
+    
+    static func favouriteVC() -> String
+    {return "FavouriteViewController"}
+    
+    static func learnVC() -> String
+    {return "LearnViewController"}
+    
+    static func techViewController() -> String
+    {return "TechViewController"}
     
     
     
