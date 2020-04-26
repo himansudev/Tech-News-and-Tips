@@ -52,7 +52,6 @@ extension LoginViewController {
     func configureUI() {
         
         view.backgroundColor = #colorLiteral(red: 0.1490196078, green: 0.4666666667, blue: 0.7450980392, alpha: 1)
-        
         contentView.backgroundColor = #colorLiteral(red: 0.1490196078, green: 0.4666666667, blue: 0.7450980392, alpha: 1)
         
         //TextFields
@@ -110,15 +109,10 @@ extension LoginViewController {
         let message = checkTextFieldForDataPresence()
         
         warningLabel.text = message
-        print(message)
+        
         if !(message != "") {
             login()
         }
-        
-        
-        
-      
-        
     }
     
     
@@ -138,35 +132,39 @@ extension LoginViewController {
 
 //Supporting Functions
 extension LoginViewController {
+    
     //Login Function
     func login() {
         
         let loadingAnimation = HPLoadingAnimation()
+        
         loadingAnimation.startAnimation(targetVC: self)
         
         let email = emailtextField.text!
         
         let pass = passwordtextField.text!
         
-        
-        
         Auth.auth().signIn(withEmail: email, password: pass) { (result, err) in
-            if err != nil {
-                
+            
+            
+          if err != nil {
+
+
+
                 loadingAnimation.stopAnimation()
-                
+
                 UIAlertController.messageAlert(target: self, title: "Invalid Credentials", message: "Invalid E-Mail\n Or\n Password")
             }
             else
-            {
+          {
                 
-                let dashBoardVC = self.storyboard?.instantiateViewController(identifier: Str.dashBoardVC()) as! DashboardViewController
-                
+                let tabBarController = self.storyboard?.instantiateViewController(identifier: VC.tabBarController())
+
                 loadingAnimation.stopAnimation()
-                
-                self.navigationController?.pushViewController(dashBoardVC, animated: true)
-                
-                
+
+                self.navigationController?.pushViewController(tabBarController!, animated: true)
+
+
             }
             
         }
@@ -190,4 +188,15 @@ extension LoginViewController {
         
     }
      
+}
+
+
+extension Str {
+    static func forgotPassWordButtonTitle() -> String {return "Forgot Password?"}
+    static func logInButtonTitle() -> String {return "LOG IN"}
+    static func cancelButtonTitle() -> String {return "Cancel"}
+    
+    static func emailTFPlaceholder() -> String {return "E-Mail"}
+    static func passwordTFPlaceholder() -> String {return "Password"}
+
 }

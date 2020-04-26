@@ -10,7 +10,7 @@
         <!--Initial View Controller-->
         <scene sceneID="2dL-V5-CG3">
             <objects>
-                <viewController id="a7U-bs-NNE" userLabel="Initial View Controller" customClass="InitialViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InitialViewController" id="a7U-bs-NNE" userLabel="Initial View Controller" customClass="InitialViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2n-iQ-Tvg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +90,7 @@
         <!--Register View Controller-->
         <scene sceneID="LZb-84-hUO">
             <objects>
-                <viewController storyboardIdentifier="register" id="pfR-Pi-GjM" customClass="RegisterViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterViewController" id="pfR-Pi-GjM" customClass="RegisterViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="db3-hH-2io">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,7 +255,7 @@
         <!--Login View Controller-->
         <scene sceneID="sQD-gB-Bkc">
             <objects>
-                <viewController storyboardIdentifier="login" id="fVu-o6-fui" customClass="LoginViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="fVu-o6-fui" customClass="LoginViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z9h-v9-Dm7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -369,42 +369,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4mU-Px-uTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="-1248.2142857142856"/>
-        </scene>
-        <!--Dashboard View Controller-->
-        <scene sceneID="96H-Fv-wrD">
-            <objects>
-                <viewController storyboardIdentifier="DashboardViewController" id="IJD-gh-mtr" customClass="DashboardViewController" customModule="Tech_News_and_Tips" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OvA-xf-8Kt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQH-Sj-D16">
-                                <rect key="frame" x="152.5" y="432" width="109" height="32.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPO-Is-Kzu">
-                                <rect key="frame" x="179.5" y="534.5" width="55" height="30"/>
-                                <state key="normal" title="Log Out"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="MQH-Sj-D16" firstAttribute="centerY" secondItem="OvA-xf-8Kt" secondAttribute="centerY" id="8Xu-fB-2Te"/>
-                            <constraint firstItem="HPO-Is-Kzu" firstAttribute="centerX" secondItem="OvA-xf-8Kt" secondAttribute="centerX" id="9NI-SY-AQx"/>
-                            <constraint firstItem="MQH-Sj-D16" firstAttribute="centerX" secondItem="OvA-xf-8Kt" secondAttribute="centerX" id="ARD-Nt-VAJ"/>
-                            <constraint firstItem="HPO-Is-Kzu" firstAttribute="top" secondItem="MQH-Sj-D16" secondAttribute="bottom" constant="70" id="kUj-BD-Lnd"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="lxK-JY-cLS"/>
-                    </view>
-                    <connections>
-                        <outlet property="logoutButton" destination="HPO-Is-Kzu" id="Uc5-od-H4w"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DKd-vQ-Dl9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2313" y="-1236"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="Ac3-74-inv">

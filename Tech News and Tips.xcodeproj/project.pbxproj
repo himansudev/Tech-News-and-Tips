@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		99730DC487549689DAB8EFD4 /* Pods_Tech_News_and_Tips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981FBF2907949439F75B7F3D /* Pods_Tech_News_and_Tips.framework */; };
 		C71B8297245448F700BEC314 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B8296245448F700BEC314 /* TabBarController.swift */; };
+		C71B829D24544DC800BEC314 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B829C24544DC800BEC314 /* VC.swift */; };
+		C71B829F2454565B00BEC314 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B829E2454565B00BEC314 /* Colors.swift */; };
 		C73BD6A3244788E20024F291 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A2244788E20024F291 /* Extension.swift */; };
 		C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A4244789110024F291 /* RegisterViewController.swift */; };
 		C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BD6A5244789110024F291 /* LoginViewController.swift */; };
 		C73BD6A924478B110024F291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73BD6A824478B110024F291 /* Assets.xcassets */; };
-		C7A594A72447861800775DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A594A62447861800775DEA /* ViewController.swift */; };
 		C7A594AA2447861800775DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A594A82447861800775DEA /* Main.storyboard */; };
 		C7A594AF2447861900775DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A594AD2447861900775DEA /* LaunchScreen.storyboard */; };
 		C7A594B82447880400775DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A594B62447880300775DEA /* AppDelegate.swift */; };
@@ -24,7 +25,6 @@
 		C7AFFCB5244DADF600A681C9 /* HPLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */; };
 		C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */; };
 		C7B573A5244B504A007A130C /* Str.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B573A4244B504A007A130C /* Str.swift */; };
-		C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */; };
 		C7C27F81245443FC00AC6BAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F80245443FC00AC6BAB /* HomeViewController.swift */; };
 		C7C27F832454444100AC6BAB /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F822454444100AC6BAB /* FavouriteViewController.swift */; };
 		C7C27F85245446EE00AC6BAB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */; };
@@ -34,12 +34,13 @@
 		51E19FA5EA1C9BCCAECC444F /* Pods-Tech News and Tips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News and Tips.debug.xcconfig"; path = "Target Support Files/Pods-Tech News and Tips/Pods-Tech News and Tips.debug.xcconfig"; sourceTree = "<group>"; };
 		981FBF2907949439F75B7F3D /* Pods_Tech_News_and_Tips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tech_News_and_Tips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71B8296245448F700BEC314 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C71B829C24544DC800BEC314 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
+		C71B829E2454565B00BEC314 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C73BD6A2244788E20024F291 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		C73BD6A4244789110024F291 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C73BD6A5244789110024F291 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C73BD6A824478B110024F291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A5949F2447861800775DEA /* Tech News and Tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech News and Tips.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7A594A62447861800775DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7A594A92447861800775DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A594AE2447861900775DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A594B02447861900775DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLoadingAnimation.swift; sourceTree = "<group>"; };
 		C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIAlert.swift"; sourceTree = "<group>"; };
 		C7B573A4244B504A007A130C /* Str.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Str.swift; sourceTree = "<group>"; };
-		C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		C7C27F80245443FC00AC6BAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C7C27F822454444100AC6BAB /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +70,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C71B829824544B1F00BEC314 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7A594BA2447883300775DEA /* InitialViewController.swift */,
+				C73BD6A5244789110024F291 /* LoginViewController.swift */,
+				C73BD6A4244789110024F291 /* RegisterViewController.swift */,
+				C71B8296245448F700BEC314 /* TabBarController.swift */,
+				C7C27F80245443FC00AC6BAB /* HomeViewController.swift */,
+				C7C27F822454444100AC6BAB /* FavouriteViewController.swift */,
+				C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C71B829924544B8300BEC314 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */,
+				C7B573A4244B504A007A130C /* Str.swift */,
+				C71B829C24544DC800BEC314 /* VC.swift */,
+				C71B829E2454565B00BEC314 /* Colors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C71B829A24544B9700BEC314 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7A594A82447861800775DEA /* Main.storyboard */,
+				C7A594AD2447861900775DEA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C71B829B24544BAD00BEC314 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */,
+				C73BD6A2244788E20024F291 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C7A594962447861800775DEA = {
 			isa = PBXGroup;
 			children = (
@@ -93,25 +136,14 @@
 			children = (
 				C7A594B62447880300775DEA /* AppDelegate.swift */,
 				C7A594B72447880300775DEA /* SceneDelegate.swift */,
-				C7A594A62447861800775DEA /* ViewController.swift */,
-				C7A594BA2447883300775DEA /* InitialViewController.swift */,
-				C73BD6A5244789110024F291 /* LoginViewController.swift */,
-				C7B7BFFC244B72F100F4CF05 /* DashboardViewController.swift */,
-				C73BD6A4244789110024F291 /* RegisterViewController.swift */,
-				C7AFFCB4244DADF600A681C9 /* HPLoadingAnimation.swift */,
-				C7AFFCB6244DAF5100A681C9 /* Extension+UIAlert.swift */,
-				C7A594A82447861800775DEA /* Main.storyboard */,
-				C71B8296245448F700BEC314 /* TabBarController.swift */,
-				C7C27F80245443FC00AC6BAB /* HomeViewController.swift */,
-				C7C27F822454444100AC6BAB /* FavouriteViewController.swift */,
-				C7C27F84245446EE00AC6BAB /* ProfileViewController.swift */,
-				C7A594AD2447861900775DEA /* LaunchScreen.storyboard */,
+				C71B829824544B1F00BEC314 /* Controllers */,
+				C71B829A24544B9700BEC314 /* View */,
+				C71B829924544B8300BEC314 /* Utilities */,
+				C71B829B24544BAD00BEC314 /* Extensions */,
 				C73BD6A824478B110024F291 /* Assets.xcassets */,
 				C7A9883E24478BC40032AC0C /* Tech_News_and_Tips.xcdatamodeld */,
 				C7A594BC2447883C00775DEA /* GoogleService-Info.plist */,
 				C7A594B02447861900775DEA /* Info.plist */,
-				C73BD6A2244788E20024F291 /* Extension.swift */,
-				C7B573A4244B504A007A130C /* Str.swift */,
 			);
 			path = "Tech News and Tips";
 			sourceTree = "<group>";
@@ -252,16 +284,16 @@
 				C7A9884024478BC50032AC0C /* Tech_News_and_Tips.xcdatamodeld in Sources */,
 				C71B8297245448F700BEC314 /* TabBarController.swift in Sources */,
 				C73BD6A7244789110024F291 /* LoginViewController.swift in Sources */,
+				C71B829F2454565B00BEC314 /* Colors.swift in Sources */,
 				C73BD6A3244788E20024F291 /* Extension.swift in Sources */,
 				C7A594B82447880400775DEA /* AppDelegate.swift in Sources */,
 				C7C27F832454444100AC6BAB /* FavouriteViewController.swift in Sources */,
 				C7AFFCB7244DAF5100A681C9 /* Extension+UIAlert.swift in Sources */,
-				C7A594A72447861800775DEA /* ViewController.swift in Sources */,
 				C73BD6A6244789110024F291 /* RegisterViewController.swift in Sources */,
 				C7A594B92447880400775DEA /* SceneDelegate.swift in Sources */,
 				C7AFFCB5244DADF600A681C9 /* HPLoadingAnimation.swift in Sources */,
-				C7B7BFFD244B72F100F4CF05 /* DashboardViewController.swift in Sources */,
 				C7A594BB2447883300775DEA /* InitialViewController.swift in Sources */,
+				C71B829D24544DC800BEC314 /* VC.swift in Sources */,
 				C7C27F85245446EE00AC6BAB /* ProfileViewController.swift in Sources */,
 				C7C27F81245443FC00AC6BAB /* HomeViewController.swift in Sources */,
 				C7B573A5244B504A007A130C /* Str.swift in Sources */,
